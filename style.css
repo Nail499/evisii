@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    max-width: 1500px;
+    margin: auto;
+    padding: 0px 32px;
+}
+nav{
+    background-color: transparent;
+    width: 100%;
+    padding: 30px 0;
+    position: absolute;
+    z-index: 999;
+    position: fixed;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+    
+    
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin-left: -60px;
+}
+.nav li a:hover{
+    color: red;
+    transition: .6s;
+}
+.nav li a{
+    text-decoration: none;
+    color: white;
+}
+.nav .icon{
+    color: white;
+    font-size: 25px;
+    display: flex;
+    gap:26px;
+    justify-content: center;
+    align-items: center;
+
+}
+.s1{
+    background-image: url(https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&q=80&w=1374&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding: 290px 0;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.overlay{
+    position: absolute;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.541);
+    width: 100%;
+    padding: 405px 0;
+    top: 0;
+    left: 0;
+}
+.text{
+    position: relative;
+    z-index: 999;
+   width: 100%;
+ 
+   }
+.text .h1-1{
+    color: white;
+    font-size: 46px;
+}
+.text .h1-2{
+    color: white;
+    letter-spacing: 6px;
+    font-size: 69px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.text button{
+    border-radius: 10px;
+    padding: 12px 25px;
+    color: orangered;
+    border: none;
+}
+.text button:hover{
+    background-color: red;
+    color: white;
+    transition: .6s;
+}
+.s2{
+    background-color: azure;
+    width: 100%;
+    padding: 180px 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    gap: 70px;
+}
+.s2 .text{
+    background-color: blue;
+    width: 590px;
+    height: 400px;
+    }
+
+.s2 .photo{
+    width: 320px;
+    height: 360px;
+    background-color: red;
+    border-radius: 5%;
+}
